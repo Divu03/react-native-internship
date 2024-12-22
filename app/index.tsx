@@ -1,14 +1,9 @@
-import { Text, View, StyleSheet } from "react-native";
-import { Link } from 'expo-router';
+import { StyleSheet } from "react-native";
+import LoginScreen from './login';
 
 export default function Index() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello World.</Text>
-      <Link href="/register" style={styles.button}>
-      Go to About screen
-      </Link>
-    </View>
+    <LoginScreen />
   );
 }
 
